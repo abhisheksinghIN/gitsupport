@@ -1,16 +1,16 @@
 ## Introduction
 
-Action	                 Command
+Action	                 | Command
 
-Check Status	           git status
+Check Status	           | git status
 
-Stage Changes	           git add .
+Stage Changes	           | git add .
 
-Commit	                 git commit -m "Your message"
+Commit	                 | git commit -m "Your message"
 
-Push to GitHub	         git push
+Push to GitHub	         | git push
 
-Pull latest updates	     git pull
+Pull latest updates	     | git pull
 
 
 # Generate the SSH Key
