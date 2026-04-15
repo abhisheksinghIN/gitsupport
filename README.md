@@ -1,9 +1,15 @@
 ## Introduction
+
 Action	                 Command
+
 Check Status	           git status
+
 Stage Changes	           git add .
+
 Commit	                 git commit -m "Your message"
+
 Push to GitHub	         git push
+
 Pull latest updates	     git pull
 
 
@@ -11,7 +17,7 @@ Pull latest updates	     git pull
 
 - To connect your Linux machine to GitHub securely, you need to generate an SSH Key, add it to your local agent, and then paste the public part into your GitHub settings.
 
-ssh-keygen -t ed25519 -C "your-email@example.com"
+1. ssh-keygen -t ed25519 -C "your-email@example.com"
 
 - When it says "Enter file in which to save the key," just press Enter (it will save to the default location).
   
@@ -53,7 +59,11 @@ ssh -T git@github.com
 
 
 git --version
+
 e.g.
+
 git add Readme.md
+
 git commit -m "Updated README"
+
 git push
