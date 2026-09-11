@@ -57,7 +57,6 @@ Run this command to make sure it works:
 
 ssh -T git@github.com
 
-
 git --version
 
 e.g.
@@ -67,3 +66,13 @@ git add Readme.md
 git commit -m "Updated README"
 
 git push
+
+# Example - Switch to new Branch
+
+git switch main
+
+git pull
+
+git switch -c feature/use-case-baseline
+
+git push -u origin feature/use-case-baseline
